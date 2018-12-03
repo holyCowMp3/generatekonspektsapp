@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="489.0" prefWidth="707.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainViewController">
+   <children>
+      <Label layoutX="55.0" layoutY="42.0" text="Батальйон" />
+      <TextField fx:id="batalioneText" layoutX="55.0" layoutY="76.0" />
+      <Label layoutX="56.0" layoutY="118.0" text="Дата затвердження" />
+      <TextField fx:id="signingDateText" layoutX="55.0" layoutY="152.0" />
+      <Label layoutX="65.0" layoutY="196.0" text="Командир роти" />
+      <TextField fx:id="comanderDivisioneText" layoutX="56.0" layoutY="230.0" />
+      <Label layoutX="65.0" layoutY="268.0" text="Головний сержант роти" />
+      <TextField fx:id="mainSergant" layoutX="56.0" layoutY="302.0" />
+      <Label layoutX="64.0" layoutY="344.0" text="Дата початку" />
+      <TextField fx:id="datePochatku" layoutX="55.0" layoutY="378.0" />
+      <Label layoutX="263.0" layoutY="42.0" text="Командир батальйону" />
+      <TextField fx:id="comanderBattalioneText" layoutX="254.0" layoutY="76.0" />
+      <Label layoutX="255.0" layoutY="118.0" text="Місяць" />
+      <TextField fx:id="signingMonthText" layoutX="254.0" layoutY="152.0" />
+      <Label layoutX="254.0" layoutY="183.0" prefHeight="42.0" prefWidth="171.0" text="Командир взводу Ремонту засобів зв’язку" textOverrun="CLIP" wrapText="true" />
+      <TextField fx:id="comander0Text" layoutX="255.0" layoutY="230.0" />
+      <Label layoutX="264.0" layoutY="268.0" text="Заступник З МПЗ" />
+      <TextField fx:id="gangalText" layoutX="255.0" layoutY="302.0" />
+      <Label layoutX="463.0" layoutY="118.0" text="Рік" />
+      <TextField fx:id="signingYearText" layoutX="463.0" layoutY="152.0" />
+      <Label layoutX="463.0" layoutY="180.0" prefHeight="49.0" prefWidth="185.0" text="Командир взводу Ремонту автомобільної  техніки" textOverrun="CLIP" wrapText="true" />
+      <TextField fx:id="comander1Text" layoutX="464.0" layoutY="230.0" />
+      <Button layoutX="296.0" layoutY="421.0" mnemonicParsing="false" onAction="#generate" text="Генерація" />
+      <Label layoutX="472.0" layoutY="42.0" text="Рота" />
+      <TextField fx:id="rotaText" layoutX="463.0" layoutY="76.0" />
+   </children>
+</AnchorPane>
